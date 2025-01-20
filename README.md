@@ -18,7 +18,7 @@ Pip: Usually included with Python installations.
 # Usage
 Run the Application: Execute the following command in your terminal:
 
-------> python FileEncryptorUI.py
+------> python File Encryptor UI.py
 
 # Encrypting a File:
 
