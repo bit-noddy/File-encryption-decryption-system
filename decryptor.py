@@ -24,6 +24,7 @@ def decrypt_file(encrypted_file_path: str, password: str):
         salt = encrypted_file.read(16)  # Read the salt
         encrypted_data = encrypted_file.read()
 
+    #Troble shooting Statement to verify manually 
     #print(f"Salt: {salt.hex()}")  # Print salt in hex format for debugging
     #print(f"Encrypted Data Length: {len(encrypted_data)}")  # Print length of encrypted data
 
